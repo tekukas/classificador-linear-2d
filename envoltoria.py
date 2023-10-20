@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
-from primitivas import compara_polares, compara_distancias, orientacao
+from primitivas import comparaPolares, comparaDistancias, orientacao
 
-def envoltoria_convexa(pontos):
+def envoltoriaConvexa(pontos):
 	"""
 	Calcula a envoltória convexa de uma lista de pontos.
 	:return: Lista de pontos que formam a envoltória convexa
@@ -18,7 +18,7 @@ def envoltoria_convexa(pontos):
 	ponto_ancora = min(pontos, key=lambda p: (p[1], p[0]))
 
 	# Ordena os pontos por ângulo polar em relação ao ponto âncora (e maior distância se houver empate)
-	pontos.sort(key=lambda ponto: (compara_polares(ponto_ancora, ponto), compara_distancias(ponto_ancora, ponto)))
+	pontos.sort(key=lambda ponto: (comparaPolares(ponto_ancora, ponto), comparaDistancias(ponto_ancora, ponto)))
 
 	# move o ancora para o inicio da lista (a função sortnão garante permanência de elementos empatados)
 	pontos.remove(ponto_ancora)
@@ -38,7 +38,7 @@ def envoltoria_convexa(pontos):
 
 	return pilha
 
-def desenha_envoltoria(envoltoria, pontos=None, show=False):
+def desenhaEnvoltoria(envoltoria, pontos=None, show=False):
 	"""
 	Plota os pontos, e os segmentos da envoltória em vermelho
 	:param pontos: Lista de pontos
