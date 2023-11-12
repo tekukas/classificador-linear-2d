@@ -13,7 +13,7 @@ experimentos;
 1. Realizar os experimentos.
 
 ## Resultados
-O projeto foi concluído e testado, com métricas de precisão, revocação e f1-score. No arquivo [ClassificadorLinear](ClassificadorLinear.ipynb) temos os testes e resultados, assim como o código detalhado.
+O projeto foi concluído e testado, com métricas de precisão, revocação e f1-score. No arquivo [ClassificadorLinear](ClassificadorLinear.ipynb) temos os testes e resultados, assim como o código detalhado. Na pasta [codigo-modularizado](codigo-modularizado/) está o mesmo código, porém em script Python para aplicação. 
 
 ## Grupo responsável pelo desenvolvimento do projeto:
 
