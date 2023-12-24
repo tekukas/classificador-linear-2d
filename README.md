@@ -17,5 +17,5 @@ O projeto foi concluído e testado, com métricas de precisão, revocação e f1
 
 ## Grupo responsável pelo desenvolvimento do projeto:
 
-| [<img src="https://avatars.githubusercontent.com/u/64935978?v=4" width=115><br><sub>Juan Braga</sub>](https://github.com/juanmbraga) |  [<img src="https://imgur.com/35uY87m.jpg" width=115><br><sub>Lucas Almeida</sub>](https://github.com/tekukas) |  [<img src="https://avatars.githubusercontent.com/u/48190640?v=4" width=115><br><sub>Luiz Romanhol</sub>](https://github.com/LuizRomanhol) |
+| [<img src="https://avatars.githubusercontent.com/u/64935978?v=4" width=115><br><sub>Juan Braga</sub>](https://github.com/juanmbraga) |  [<img src="https://imgur.com/35uY87m.jpg" width=115><br><sub>Lucas Almeida</sub>](https://github.com/zzzluquinhas) |  [<img src="https://avatars.githubusercontent.com/u/48190640?v=4" width=115><br><sub>Luiz Romanhol</sub>](https://github.com/LuizRomanhol) |
 | :---: | :---: | :---:
